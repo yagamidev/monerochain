@@ -1,5 +1,5 @@
 {
-  "name": "MoneroChain",
+  "name": "UltrapoinChain",
   "version": "0.0.1",
   "main": "common/index.jsx",
   "dependencies": {
@@ -24,6 +24,7 @@
     "redux-logger": "^3.0.1",
     "redux-thunk": "^2.2.0",
     "store2": "^2.5.0",
+    "webpack": "^2.3.3",
     "whatwg-fetch": "^2.0.2"
   },
   "devDependencies": {

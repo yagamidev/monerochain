@@ -3,7 +3,7 @@ const path = require('path')
 
 module.exports = {
   port: 3000,
-  title: 'MoneroChain',
+  title: 'UltrapoinChain',
   publicPath:  '/',
   srcPath: path.join(__dirname, './../common'),
   // add these dependencies to a standalone vendor bundle

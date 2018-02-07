@@ -1,6 +1,6 @@
-# MoneroChain
+# UltrapoinChain
 
-![MoneroChain](http://imgur.com/Urs1Jgi.png "MoneroChain")
+![UltrapoinChain](http://imgur.com/Urs1Jgi.png "UltrapoinChain")
 
 
 #### Run:

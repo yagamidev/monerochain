@@ -30,7 +30,7 @@ function handleBadSearch(text = "No results found :(") {
 
 
 function makeThenSetSelectedNodeAndNodeOptions() {
-    const defaultNodeOption = "http://explorer.xmr.my"
+    const defaultNodeOption = "http://127.0.0.1:8081/"
     store.set('nodeSettings', {
         nodeOptions: [defaultNodeOption],
         selectedNode: defaultNodeOption
@@ -152,7 +152,7 @@ export default class Header extends Component {
                 }} fixed={false}>
                     <Link to="/" style={{color: 'black', textDecoration: 'none'}}>
                         <Title style="">
-                            MoneroChain<div style={{color: 'white'}}>beta</div>
+                            UltrapoinChain<div style={{color: 'white'}}>beta</div>
                         </Title>
                     </Link>
                     <Box flex={true}
