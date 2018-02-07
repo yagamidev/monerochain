@@ -2,7 +2,7 @@
 const path = require('path')
 
 module.exports = {
-  port: 3000,
+  port: 8090,
   title: 'UltrapoinChain',
   publicPath:  '/',
   srcPath: path.join(__dirname, './../common'),

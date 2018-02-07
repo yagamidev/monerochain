@@ -30,7 +30,7 @@ function handleBadSearch(text = "No results found :(") {
 
 
 function makeThenSetSelectedNodeAndNodeOptions() {
-    const defaultNodeOption = "http://127.0.0.1:8081/"
+    const defaultNodeOption = "http://127.0.0.1:8081"
     store.set('nodeSettings', {
         nodeOptions: [defaultNodeOption],
         selectedNode: defaultNodeOption
@@ -146,7 +146,7 @@ export default class Header extends Component {
         return (
             <div>
                 <GHeader style={{
-                    backgroundColor: 'orange',
+                    backgroundColor: 'navy',
                     paddingLeft: '2.3em',
                     paddingRight: '2.3em',
                 }} fixed={false}>
@@ -175,7 +175,7 @@ export default class Header extends Component {
                                 this.state.nodeOptions.map((e, i) => {
                                     return (
                                         <Anchor key={i} onClick={() => this.handleNodeSelect(e)}>
-                                            {e}
+                                            
                                         </Anchor>
                                     )
                                 })
